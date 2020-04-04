@@ -1,4 +1,5 @@
 <?php
+
 // пространство имен общее для сортировок.
 namespace Sorts;
 
@@ -11,7 +12,8 @@ abstract class AbstractSort
     protected $arrAfter;
     
     /**
-     * Здесь инициализируем входящие данные(массив для сортировки).
+     * Конструктор.
+     * @param array $inputArr
      */
     public function __construct(array $inputArr)
     {
