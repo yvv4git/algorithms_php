@@ -25,7 +25,7 @@ class BubbleSort extends AbstractSort
      * @param array $data
      * @return array
      */
-    private function FuncBubbleSort(array $data)
+    private function FuncBubbleSort(array $data): array
     {
         $count_elements = count($data);		// общее количество элементов
         $iterations = $count_elements - 1;	// количество проходов N-1

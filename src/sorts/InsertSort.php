@@ -25,7 +25,8 @@ class InsertSort extends AbstractSort
      * @param array $arr
      * @return array
      */
-    private function FuncInsertSort(array $arr): array {
+    private function FuncInsertSort(array $arr): array 
+    {
         $count = count($arr);
         //echo  'Count: ' . $count . PHP_EOL;
         if ($count <= 1) {

@@ -23,7 +23,6 @@
 2.Каждая из сортируемых частей сортируется отдельно, например,
 тем же самым алгоритмом.
 3.Два упорядоченных массива половинного размера соединяются в один.
-
 */
 
 namespace sorts;
@@ -44,7 +43,8 @@ class MergeSort extends AbstractSort
      * @param array $arr
      * @return array
      */
-    private function FuncMergeSort(array $arr) {
+    private function FuncMergeSort(array $arr): array
+    {
         $count = count($arr);
         if ($count <= 1) {
             return $arr;
@@ -59,7 +59,13 @@ class MergeSort extends AbstractSort
         return $this->FuncMerge($left, $right);
     }
 
-    private function FuncMerge(array $left, array $right) {
+    /**
+     * @param array $left
+     * @param array $right
+     * @return array
+     */
+    private function FuncMerge(array $left, array $right): array
+    {
         $ret = array();
         while (count($left) > 0 && count($right) > 0) {
             if ($left[0] < $right[0]) {
