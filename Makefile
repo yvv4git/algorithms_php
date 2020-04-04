@@ -2,7 +2,7 @@
 
 all: test
 
-tests: tests_math tests_sorts
+tests: tests_math tests_sorts tests_practical
 
 tests_math:
 	php vendor/bin/phpunit --bootstrap autoload.php test/MathTest.php -vvv
