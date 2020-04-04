@@ -6,6 +6,9 @@ abstract class AbstractMath
     protected $dataIn;
     protected $result;
     
+    /**
+     * @param array $dataIn
+     */
     public function __construct($dataIn)
     {
         $this->dataIn = $dataIn;
@@ -13,7 +16,10 @@ abstract class AbstractMath
     
     abstract public function Calc();
     
-    public function GetResult()
+    /**
+     * @return integer
+     */
+    public function GetResult(): int
     {
         return $this->result;
     }

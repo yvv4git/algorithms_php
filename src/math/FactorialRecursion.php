@@ -1,6 +1,10 @@
 <?php
 namespace math;
 
+/**
+ * Факториал числа - это произведение натуральных чисел от 1 до до самоего числа(включительно).
+ * Например: 3! = 1 * 2 * 3 = 6
+ */
 class FactorialRecursion extends AbstractMath
 {
     public function Calc()
@@ -10,7 +14,8 @@ class FactorialRecursion extends AbstractMath
     
     /**
      * Конкретная реализация получения факториала с использованием
-     * рекурсии.
+     * рекурсии. Это не самый эффективный алгоритм вычисления 
+     * факториала числа.
      */
     private function FactorialR(int $chislo)
     {
