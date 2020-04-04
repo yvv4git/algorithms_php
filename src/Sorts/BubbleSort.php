@@ -8,7 +8,7 @@
  * Проходы повторяются N-1 раз..
  */
 
-namespace sorts;
+namespace Sorts;
 
 class BubbleSort extends AbstractSort
 {

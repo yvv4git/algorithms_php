@@ -1,5 +1,6 @@
 <?php
-namespace math;
+
+namespace Math;
 
 abstract class AbstractMath
 {

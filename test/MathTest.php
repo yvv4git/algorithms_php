@@ -1,5 +1,6 @@
 <?php
-namespace math;
+namespace Math;
+
 use PHPUnit\Framework\TestCase;
 
 class MathTest extends TestCase

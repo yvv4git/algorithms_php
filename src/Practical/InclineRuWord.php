@@ -1,5 +1,5 @@
 <?php
-namespace practical;
+namespace Practical;
 
 /**
  * Реализация алгоритма склонения слова в зависимости от цифры.

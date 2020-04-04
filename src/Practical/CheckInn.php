@@ -1,5 +1,5 @@
 <?php
-namespace practical;
+namespace Practical;
 
 class CheckInn
 {
