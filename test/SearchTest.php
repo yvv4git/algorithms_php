@@ -11,7 +11,7 @@
  class SearchTest extends TestCase
  {
      /**
-      * Провайдер данных.
+      * Провайдер данных / Data set.
       *
       * @return array
       */
@@ -37,6 +37,22 @@
      }
 
      /**
+      * Тестируем алргоритм простого линейного поиска.
+      * @dataProvider arrDataProvider
+      * @param array $inputArr
+      * @param integer $seach
+      * @param boolean $expected
+      * @return void
+      */
+     public function testLinearSearch(array $inputArr, int $seach, bool $expected): void
+     {
+         $obj = new LinearSearch($inputArr, $seach);
+         $obj->search();
+         $this->assertEquals($obj->getResult(), $expected);
+     }
+
+     /**
+      * Тестируем алгоритм бинарного поиска.
       * @dataProvider arrDataProvider
       * @param array $inputArr
       * @param integer $seach
