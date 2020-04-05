@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Data_structures\Lifo\Stack;
+use Ds\Lifo\Stack;
 
 class LifoTest extends TestCase
 {

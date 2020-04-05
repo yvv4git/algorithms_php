@@ -1,6 +1,6 @@
 <?php
 
-namespace Data_structures\Lifo;
+namespace Ds\Lifo;
 
 class Stack implements IStack
 {
