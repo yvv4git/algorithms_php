@@ -1,7 +1,8 @@
 <?php
 
-namespace Practical;
 use PHPUnit\Framework\TestCase;
+use Algorithms\Practical\CheckInn;
+use Algorithms\Practical\InclineRuWord;
 
 
 class PracticalTest extends TestCase

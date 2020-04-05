@@ -3,8 +3,9 @@
  * Пространства имен появились в php 5.3.0 версии.
  * Импортирование функций и констант появилось в php 5.6 версии.
  */
-namespace sorts;
+
 use PHPUnit\Framework\TestCase;
+use Algorithms\Sorts\{BubbleSort, InsertSort, MergeSort, QuickSort, SelectionSort};
 
 class SortsTest extends TestCase
 {

@@ -4,9 +4,9 @@
  * Импортирование функций и констант появилось в php 5.6 версии.
  */
 
- namespace Search;
-
  use PHPUnit\Framework\TestCase;
+ use Algorithms\Search\BinarySearch;
+ use Algorithms\Search\LinearSearch;
 
  class SearchTest extends TestCase
  {

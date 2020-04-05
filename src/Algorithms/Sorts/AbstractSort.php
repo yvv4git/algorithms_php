@@ -1,7 +1,7 @@
 <?php
 
 // пространство имен общее для сортировок.
-namespace Sorts;
+namespace Algorithms\Sorts;
 
 /**
  * Абстрактный класс сортировки.

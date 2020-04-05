@@ -1,5 +1,6 @@
 <?php
-namespace Practical;
+
+namespace Algorithms\Practical;
 
 class CheckInn
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Search;
+namespace Algorithms\Search;
 
 abstract class AbstractSearch
 {

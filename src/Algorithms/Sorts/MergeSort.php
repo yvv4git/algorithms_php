@@ -23,7 +23,7 @@
  * 3.Два упорядоченных массива половинного размера соединяются в один.
  */
 
-namespace sorts;
+namespace Algorithms\Sorts;
 
 class MergeSort extends AbstractSort
 {

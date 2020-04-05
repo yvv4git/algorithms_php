@@ -1,8 +1,9 @@
 # Makefile
 
-all: test
+all: tests
 
-tests: tests_math tests_sorts tests_practical tests_search
+tests: 
+	php vendor/bin/phpunit --bootstrap autoload.php test --debug
 
 tests_math:
 	php vendor/bin/phpunit --bootstrap autoload.php test/MathTest.php --debug

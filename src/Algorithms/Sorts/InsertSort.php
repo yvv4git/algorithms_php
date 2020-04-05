@@ -8,7 +8,7 @@
  * размещается в подходящем месте среди ранее упорядоченных элементов.
  */
 
-namespace sorts;
+namespace Algorithms\Sorts;
 
 
 class InsertSort extends AbstractSort

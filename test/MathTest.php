@@ -1,6 +1,6 @@
 <?php
-namespace Math;
 
+//use Algorithms\Math;
 use PHPUnit\Framework\TestCase;
 
 class MathTest extends TestCase
@@ -31,7 +31,7 @@ class MathTest extends TestCase
      */
     public function testFactorialRecursion(int $chislo, int $assertResult)
     {
-        $o = new FactorialRecursion($chislo);
+        $o = new Algorithms\Math\FactorialRecursion($chislo);
         $o->Calc($chislo);
         $this->assertSame($o->GetResult(), $assertResult);
     }
@@ -42,7 +42,7 @@ class MathTest extends TestCase
      */
     public function testFactorialLoop(int $chislo, int $assertResult)
     {
-        $o = new FactorialLoop($chislo);
+        $o = new Algorithms\Math\FactorialLoop($chislo);
         $o->Calc($chislo);
         $this->assertSame($o->GetResult(), $assertResult);
     }

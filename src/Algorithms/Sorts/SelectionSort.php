@@ -14,7 +14,7 @@
  * 3. Сортируем хвост списка, исключив из рассмотрения уже отсортированные элементы.
  */
 
-namespace sorts;
+namespace Algorithms\Sorts;
 
 class SelectionSort extends AbstractSort
 {

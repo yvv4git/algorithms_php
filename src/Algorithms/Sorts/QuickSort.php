@@ -26,7 +26,7 @@
  * или ни одного элемента.
  */
 
-namespace sorts;
+namespace Algorithms\Sorts;
 
 
 class QuickSort extends AbstractSort
